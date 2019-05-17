@@ -1,3 +1,8 @@
+/**
+ captura una matriz de numeros , si los numeros de entrada son positivos guardalos de derecha a izquierda de arriba hacia abajo.. 
+ si los numeros son negativos almacenalos de izquierda a derecha
+*/
+
 import java.util.Scanner; 
 import java.util.Arrays;
 class Main {
