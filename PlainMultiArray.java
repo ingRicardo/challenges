@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class PlainMultiArray {
 
-	/**
+	/** 
 	 * @param args [1,23, [1, [ 2, [1] , 2]], [1]] take an array with unknown depth
 	 *             and make it flat [1,23,1,2,1,2,1]
 	 */
