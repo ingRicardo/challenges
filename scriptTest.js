@@ -3,19 +3,20 @@
 
 var arr =[1,23, [1, [ 2, [1] , 2]], [1]];
 console.log("Input -> "+arr);
-var myData = [];
-recu(arr);
-console.log("Output -> "+ myData);
-function recu(arr){
-   
+var res = [];
+res.push(recu(arr));
+console.log("Output -> "+ res);
+
+function recu(arr){ 
+    var myData = [];
     for(let i =0; i<arr.length; i++){
-        if (typeof arr[i] == 'object'){
-            recu(arr[i]);
+        if (Array.isArray(arr[i])){
+             myData.push(recu(arr[i]));
         }else{
            myData.push(arr[i]); 
         }
         
     }
-
+return myData;
 }
 
