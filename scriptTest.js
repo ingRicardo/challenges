@@ -17,7 +17,7 @@ function testType ( arr, vecTypes ){
             if (typeof arr[i] == 'number'){             
                 vecTypes.push(arr[i]);             
             }
-
+    
     }
 return vecTypes;
 }
