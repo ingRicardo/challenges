@@ -16,7 +16,7 @@ function arrayTest(arrStart){
         vecTypes=   testType(arrStart[i], vecTypes);
 
     }else if (typeof arrStart[i] == 'string'){
-        var n = parseInt(arrStart[i],10);              
+        var n = parseInt(arrStart[i],10);               
         res.push(n);            
     } else if (typeof arrStart[i] == 'number'){             
         res.push(arrStart[i]);             
