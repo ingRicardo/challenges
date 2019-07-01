@@ -52,4 +52,4 @@ function testType ( arr, vecTypes ){
     }
 return vecTypes;
 }
-
+ 
